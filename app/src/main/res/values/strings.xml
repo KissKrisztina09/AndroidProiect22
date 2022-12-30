@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">AndroidProiect22</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_login">Login</string>
+    <string name="settings">Settings</string>
+    <string name="my_groups">My Groups</string>
+    <string name="logout">Log Out</string>
+    <string name="view_profile">View Profile</string>
+    <string name="pause_notifications">Pause notifications</string>
+    <string name="profile">Profile</string>
+    <string name="details">Details</string>
+    <string name="deadline">Deadline:</string>
+    <string name="assignee">Assignee:</string>
+    <string name="my_tasks">My Tasks</string>
+    <string name="task_name">Task Name</string>
+    <string name="upload">UPLOAD</string>
+    <string name="create">CREATE</string>
+    <string name="task_description">Task Description</string>
+    <string name="select_a_date">Select a date</string>
+    <string name="select_deadline">Select deadline</string>
+    <string name="select_project">Select project</string>
+    <string name="select_priority">Select priority</string>
+    <string name="select_assignee">Select assignee</string>
+    <string name="assigned_by">Assigned by:</string>
+    <string name="assigned_date">Assigned date:</string>
+    <string name="assignee_colon">Assignee:</string>
+    <string name="priority">Priority</string>
+    <string name="activities">Activities</string>
+    <string name="first_name">First Name:</string>
+    <string name="last_name">Last Name:</string>
+    <string name="location">Location:</string>
+    <string name="phone_number">Phone number:</string>
+    <string name="image_url">Image url:</string>
+    <string name="update">UPDATE</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.projekt_3ss.ui.login.DemoLoginFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_demo_login" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.projekt_3ss.ui.settings.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/navigation_groups"
+        android:name="com.example.projekt_3ss.ui.groups.GroupsFragment"
+        android:label="@string/my_groups"
+        tools:layout="@layout/fragment_groups" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.projekt_3ss.ui.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile"/>
+
+    <fragment
+        android:id="@+id/navigation_tasks"
+        android:name="com.example.projekt_3ss.ui.tasks.TaskListFragment"
+        android:label="@string/my_tasks"
+        tools:layout="@layout/fragment_task_list" />
+
+    <fragment
+        android:id="@+id/navigation_create_task"
+        android:name="com.example.projekt_3ss.ui.create_task.CreateTaskFragment"
+        android:label="Create new Task"
+        tools:layout="@layout/fragment_create_task"/>
+
+    <fragment
+        android:id="@+id/navigation_task_detail"
+        android:name="com.example.projekt_3ss.ui.task_details.TaskDetailFragment"
+        android:label="Task Description"
+        tools:layout="@layout/fragment_task_detail" />
+
+    <fragment
+        android:id="@+id/navigation_activities"
+        android:name="com.example.projekt_3ss.ui.activities.ActivitiesFragment"
+        android:label="Activities"
+        tools:layout="@layout/fragment_activities"/>
+
+    <fragment
+        android:id="@+id/navigation_edit_profile"
+        android:name="com.example.projekt_3ss.ui.edit_profile.EditProfileFragment"
+        android:label="Edit Profile"
+        tools:layout="@layout/fragment_edit_profile"/>
+</navigation>

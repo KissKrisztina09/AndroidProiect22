@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_login" />
+
+    <item
+        android:id="@+id/navigation_activities"
+        android:icon="@drawable/ic_baseline_auto_awesome_mosaic_24"
+        android:title="@string/activities"/>
+
+    <item
+        android:id="@+id/navigation_tasks"
+        android:icon="@drawable/ic_baseline_event_available_24"
+        android:title="@string/my_tasks" />
+
+    <item
+        android:id="@+id/navigation_groups"
+        android:icon="@drawable/ic_baseline_group_24"
+        android:title="@string/my_groups" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="@string/settings">
+    </item>
+
+</menu>

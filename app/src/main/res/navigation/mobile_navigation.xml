@@ -47,16 +47,22 @@
         android:label="Task Description"
         tools:layout="@layout/fragment_task_detail" />
 
-    <fragment
-        android:id="@+id/navigation_activities"
-        android:name="com.example.androidproiect22.ui.activities.ActivitiesFragment"
-        android:label="Activities"
-        tools:layout="@layout/fragment_activities"/>
 
     <fragment
         android:id="@+id/navigation_edit_profile"
         android:name="com.example.androidproiect22.ui.edit_profile.EditProfileFragment"
         android:label="Edit Profile"
         tools:layout="@layout/fragment_edit_profile"/>
+    <fragment
+        android:id="@+id/navigation_members"
+        android:name="com.example.androidproiect22.ui.members.MembersFragment"
+        android:label="Members"
+        android:layout="@layout/fragment_members" />
+    <fragment
+        android:id="@+id/activitiesFragment"
+        android:name="com.example.androidproiect22.ui.activities.ActivitiesFragment"
+        android:label="fragment_activities"
+        tools:layout="@layout/fragment_activities" />
+
 
 </navigation>

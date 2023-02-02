@@ -1,7 +1,6 @@
 package com.example.androidproiect22
 
 import android.annotation.SuppressLint
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,9 +8,8 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.androidproiect22.model.Task
+import com.example.androidproiect22.model.User
 import com.example.androidproiect22.ui.tasks.TaskListFragment
-import com.example.androidproiect22.ui.tasks.TaskListViewModel
-import com.example.androidproiect22.ui.tasks.TaskResult
 
 class RecyclerViewAdapter(private val mOnProductClickListener: TaskListFragment) : RecyclerView.Adapter<RecyclerViewAdapter.RecyclerViewViewHolder>() {
 

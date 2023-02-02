@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.androidproiect22.R
@@ -23,7 +24,6 @@ class GroupsFragment : Fragment() {
 
     private lateinit var mDepartmentListAdapter : RecyclerViewDepartments
 
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -33,6 +33,12 @@ class GroupsFragment : Fragment() {
         _binding = FragmentGroupsBinding.inflate(inflater, container, false)
 
         val root: View = binding.root
+        val navController = findNavController()
+
+
+        binding.buttonMembers.setOnClickListener{
+            navController.navigate(R.id.navigation_members)
+        }
 
         viewModel.departmentResult.observe(viewLifecycleOwner) {
             if (it == GroupResult.LOADING) {

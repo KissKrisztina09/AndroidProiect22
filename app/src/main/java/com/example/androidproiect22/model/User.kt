@@ -1,7 +1,7 @@
 package com.example.androidproiect22.model
 
 
-data class User (
+data class  User (
     var userId: Int,
     var lastName: String,
     var firstName: String,

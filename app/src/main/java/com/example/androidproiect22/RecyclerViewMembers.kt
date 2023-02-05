@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.androidproiect22.model.Department
 import com.example.androidproiect22.model.Task
 import com.example.androidproiect22.model.User
+import com.example.androidproiect22.service.DepartmentService
 import com.example.androidproiect22.ui.members.MembersFragment
 import com.example.androidproiect22.ui.tasks.TaskListFragment
 
@@ -20,7 +21,7 @@ class RecyclerViewMembers : RecyclerView.Adapter<RecyclerViewMembers.RecyclerVie
     inner class RecyclerViewViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val username : TextView = itemView.findViewById(R.id.userName)
         val department: TextView = itemView.findViewById(R.id.departmentText)
-    }
+        val depUser: TextView = itemView.findViewById(R.id.usersDepartment)    }
 
     private var userList : MutableList<User> = mutableListOf()
 
@@ -44,6 +45,7 @@ class RecyclerViewMembers : RecyclerView.Adapter<RecyclerViewMembers.RecyclerVie
     override fun getItemCount(): Int {
         return userList.size
     }
+
 
     override fun onBindViewHolder(holder: RecyclerViewViewHolder, position: Int) {
         val currentItem = userList[position]
